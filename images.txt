@@ -2,10 +2,10 @@
 opengrok/docker
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
---platform=linux/arm64 xiaoyaliu/web
---platform=linux/arm64 xiaoyaliu/db
---platform=linux/arm64 xiaoyaliu/redis
---platform=linux/arm64 xiaoyaliu/worker
---platform=linux/arm64 xiaoyaliu/api
---platform=linux/arm64 xiaoyaliu/nginx
---platform=linux/arm64 xiaoyaliu/weaviate
+web
+db
+redis
+worker
+api
+nginx
+weaviate
